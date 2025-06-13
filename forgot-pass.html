@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+        Forgot password
+    </title>
+    <style>
+        body{
+        font-family:Arial, sans-serif;
+        display: flex;
+         background-color:#2E073F;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+
+        }
+        .pass{
+            background: white;
+                padding: 25px 30px;
+                border-radius: 15px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                width: 300px;
+        }
+        .pass input{
+            width: 150px;
+            padding:10px;
+            margin: 50px 0;
+            border: 1px solid #AD49E1;
+            border-radius: 5px;
+        }
+        .pass button[type="submit"]
+        {
+            width: 150px;
+            padding:10px;
+        
+            
+            border: 1px solid #AD49E1;
+            border-radius: 8px;
+     background-color:#7A1CAC;
+      color: #EBD3F8;
+      cursor: pointer;
+      border: none; 
+        }
+        .pass button[type="submit"]:hover {
+    
+        background-color:#7A1CAC;
+        color:#EBD3F8;
+        }
+    </style>
+        
+    </head>
+    <body>
+       <div class="pass">
+        <form action="forgot-pass.html" method="post">
+            <label for="email">Enter Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Reset Password</button>
+        </form>
+       </div> 
+            
+    </body>

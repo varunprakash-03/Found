@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+            Submit idea Form
+        </title>  
+
+    </head>
+    <body>
+        <div class="submitidea">
+            <h1>Hello Founder</h1>
+            <h2>Submit Your Idea</h2>
+            <form action="/submitidea.html" method="post">
+                 <label for="idea">Startup Idea</label>
+                <input type="text" name="startup" id="idea" placeholder="Enter startup Idea" required>
+                  <label for="domain">Choose Domain</label>
+                   <select name="domain" id="domain">
+                    <option value="AI/ML">AI/Ml</option>
+                    <option value="Iot">Iot</option>
+                    <option value="E-commerce">E-commerce</option>
+                    <option value="MedTech">MedTech</option>
+                     <option value="AgriTech">AgriTech</option>
+                      <option value="CyberSecurity">CyberSecurity</option>
+                       <option value="BlockChain">BlockChain</option>
+                        <option value="Saas">Saas</option>
+                    </select>
+                    <label for="desc">Descrption</label>
+                    <textarea id="desc" name="message" rows="5" cols="40" placeholder=" "></textarea>
+
+               
+            </form>
+        </div>
+    </body>
+</html>
